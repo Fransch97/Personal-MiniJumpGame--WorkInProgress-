@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    height: 75vh;
+    width: 75vw;
+    border: 2px solid black;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(cartoon-nature-landscape-game-background-vector-grass-forest-mountains-sky-layers-70098703.jpg)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    padding: 50px;
+}
+.cubo{
+    height: 10vh;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.giocatore{
+    background-image: url(pacman2.gif);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    width: 50px;
+    left: 10%;
+}
+
+.ostacolo,.ostacolodos{
+    background-image: url(gif.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    right: 0;
+}
